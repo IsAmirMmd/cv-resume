@@ -1,5 +1,5 @@
-Amir Mohammad Lotfi Pour
-Front-End Developer
+<strong>Amir Mohammad Lotfi Pour </strong><br />
+<strong><i>Front-End Developer</i></strong>
 
 amirfanweb@gmail.com
 
@@ -30,7 +30,7 @@ Student At BNUT - Babol Noshirvani University Of Technology
 🚀 EXPERIENCE:
 
  <div>
-        <p>Front-End Developer | Umsudorm WebSite</p>
+        <strong>Front-End Developer | Umsudorm WebSite</strong><br />
         <span
           >implement by React,Tailwind and MUi.<br />This website is developed
           for roll call website catering to dormitories in Tehran, Iran. <br />

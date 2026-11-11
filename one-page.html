@@ -59,7 +59,7 @@ h1 { font-size: 22pt; } h2 { font-size: 10.5pt; } .lead { font-size: 9.5pt; marg
 .job + .job { margin-top: 2.5mm; padding-top: 2.5mm; } .where { font-size: 8pt; margin-bottom: .8mm; } li { margin-top: .3mm; }
 .contact { gap: 1mm; font-size: 8pt; } .label { margin-bottom: 1.8mm; }
 .work { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 5mm; font-size: 8.3pt; }
-.work b { font-weight: 800; } .chip { font-size: 7.8pt; padding: .4mm 2mm; }
+.work b { font-weight: 800; } .work .handle { font-size: 7.4pt; color: var(--coral-ink); font-weight: 800; } .chip { font-size: 7.8pt; padding: .4mm 2mm; }
 .skills { gap: 1.4mm; } .skills > div { grid-template-columns: 22mm 1fr; }
 </style>
 </head>
@@ -120,10 +120,11 @@ h1 { font-size: 22pt; } h2 { font-size: 10.5pt; } .lead { font-size: 9.5pt; marg
   <div class="tile sand">
     <div class="label"><i></i>Selected work · nimbyte.ir/portfolio</div>
     <div class="work">
-      <p><b>AdsProvider</b> · Telegram Ads ordering bot: toman wallet (card, TON, USDT), Telegram Ads API, chart reports, Mini App.</p>
-      <p><b>Soundgir</b> · SoundCloud downloader: Spotify/YouTube matching, tags in the file, Playlist Mini App, widget.</p>
-      <p><b>Nakoja</b> · Online shop demo, from product page to seller panel.</p>
-      <p><b>LikeTune · Hesabdar</b> · Music-channel likes and stats; inline calculator and currency converter.</p>
+      <p><a href="https://t.me/AdsProviderBot"><b>AdsProvider</b> <span class="mono handle">@AdsProviderBot</span></a> · Telegram Ads ordering bot: toman wallet (card, TON, USDT), Telegram Ads API, chart reports, Mini App.</p>
+      <p><a href="https://t.me/SoundCoudMusicBot"><b>Soundgir</b> <span class="mono handle">@SoundCoudMusicBot</span></a> · SoundCloud downloader: Spotify/YouTube matching, tags in the file, Playlist Mini App, widget.</p>
+      <p><a href="https://nakoja.nimbyte.ir"><b>Nakoja</b> <span class="mono handle">nakoja.nimbyte.ir</span></a> · Online shop demo, from product page to seller panel.</p>
+      <p><a href="https://t.me/music_modifier_bot"><b>LikeTune</b> <span class="mono handle">@music_modifier_bot</span></a> · Likes and stats for music channels.</p>
+      <p><a href="https://t.me/hesabdarInlinebot"><b>Hesabdar</b> <span class="mono handle">@hesabdarInlinebot</span></a> · Inline calculator and currency converter in any chat.</p>
     </div>
   </div>
   <div class="row" style="grid-template-columns: 1fr 1.9fr">

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Amirmohammad Lotfipour · Front-End Developer</title>
+<title>Amirmohammad Lotfipour · Résumé</title>
 <meta name="description" content="Résumé of Amirmohammad Lotfipour, Front-End developer (Next.js, React, TypeScript) and founder of nimbyte." />
 <style>
 @font-face { font-family: Vazirmatn; src: url(assets/fonts/Vazirmatn-Variable.woff2) format("woff2"); font-weight: 100 900; }
@@ -15,7 +15,7 @@
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { background: var(--sand); }
-body { font-family: Vazirmatn, Arial, sans-serif; color: var(--ink); font-size: 10.2pt; line-height: 1.45; }
+body { font-family: Vazirmatn, Arial, sans-serif; color: var(--ink); font-size: 9pt; line-height: 1.4; }
 a { color: inherit; text-decoration: none; }
 .page { width: 210mm; min-height: 297mm; margin: 24px auto; background: var(--cream); padding: 10mm;
   display: grid; gap: 4mm; align-content: start; box-shadow: 0 18px 44px rgba(32, 33, 31, .12); }
@@ -53,16 +53,24 @@ ul { padding-left: 4.5mm; } li { margin-top: .8mm; } li::marker { color: var(--c
 @page { size: A4; margin: 0; }
 @media print { html { background: none; } .page { margin: 0; box-shadow: none; height: 297mm; overflow: hidden; break-after: page; } .page:last-child { break-after: auto; } }
 @media screen and (max-width: 820px) { .page { width: auto; min-height: 0; margin: 0 0 12px; } .row { grid-template-columns: 1fr !important; } .proj { grid-template-columns: 1fr; } }
+.page { gap: 3mm; padding: 8mm; }
+.tile { padding: 4mm 5mm; border-radius: 4mm; }
+h1 { font-size: 22pt; } h2 { font-size: 10.5pt; } .lead { font-size: 9.5pt; margin-top: 1mm; }
+.job + .job { margin-top: 2.5mm; padding-top: 2.5mm; } .where { font-size: 8pt; margin-bottom: .8mm; } li { margin-top: .3mm; }
+.contact { gap: 1mm; font-size: 8pt; } .label { margin-bottom: 1.8mm; }
+.work { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 5mm; font-size: 8.3pt; }
+.work b { font-weight: 800; } .work .handle { font-size: 7.4pt; color: var(--coral-ink); font-weight: 800; } .chip { font-size: 7.8pt; padding: .4mm 2mm; }
+.skills { gap: 1.4mm; } .skills > div { grid-template-columns: 22mm 1fr; }
 </style>
 </head>
 <body>
-
 <section class="page">
-  <div class="row" style="grid-template-columns: 1.75fr 1fr">
+  <div class="row" style="grid-template-columns: 1.6fr 1fr">
     <div class="tile">
-      <div class="label"><i></i>Résumé · updated November 2026</div>
-      <h1>Amirmohammad<br />Lotfipour</h1>
+      <div class="label"><i></i>Résumé · November 2026</div>
+      <h1>Amirmohammad Lotfipour</h1>
       <p class="lead">Front-End Developer (Mid-Level) · Next.js, React, TypeScript · founder of <span class="mono" style="color:var(--coral-ink);font-weight:800">nimbyte</span></p>
+      <p style="margin-top:2mm">I build websites, dashboards, Telegram Mini Apps and bots, and have worked remotely with US teams since 2023 on data-heavy products. Since spring 2026 I develop through Claude Code agents with custom skills and workflows. Coding since seventh grade.</p>
     </div>
     <div class="tile ink contact">
       <div class="label"><i></i>Contact</div>
@@ -75,103 +83,68 @@ ul { padding-left: 4.5mm; } li { margin-top: .8mm; } li::marker { color: var(--c
       <a><b>Based in</b><span>Mashhad, Iran</span></a>
     </div>
   </div>
-
-  <div class="tile soft">
-    <div class="label"><i></i>Profile</div>
-    <p>Front-End developer specializing in Next.js, React and TypeScript. I build websites, dashboards, Telegram Mini Apps and Telegram bots, and I've worked remotely with US teams since 2023 on data-heavy products, system design and AI agents. Since spring 2026 I develop through Claude Code agents, with custom skills and workflows that keep their output in line with each project's conventions. I started web programming in seventh grade and haven't stopped since.</p>
-  </div>
-
   <div class="tile">
     <div class="label"><i></i>Experience</div>
     <article class="job">
-      <header><h2>Front-End Developer, Mid-Level</h2><span class="when">Oct 2024 – Present</span></header>
-      <p class="where">Private Company · Remote, USA</p>
+      <header><h2>Front-End Developer, Mid-Level · Private Company</h2><span class="when">Oct 2024 – Present</span></header>
+      <p class="where">Remote, USA</p>
       <ul>
-        <li>Turn large datasets into charts and analytical reports with D3.js and Highcharts.</li>
-        <li>Process big datasets in the browser while keeping pages fast and responsive.</li>
-        <li>Made the codebase easier to maintain with advanced React hooks and patterns.</li>
-        <li>Since spring 2026, moved the team's development to Claude Code: features, refactors and bug fixes are all done through agents, with no code written by hand.</li>
-        <li>Built custom Claude Code skills and workflows so the agents' output follows the project's conventions.</li>
+        <li>Turn large datasets into charts and analytical reports with D3.js and Highcharts, processed in the browser without slowing the page.</li>
+        <li>Moved the team's development to Claude Code in spring 2026: features, refactors and fixes all done through agents, with custom skills and workflows that keep their output to the project's conventions.</li>
       </ul>
     </article>
     <article class="job">
       <header><h2>Founder &amp; Developer · nimbyte</h2><span class="when">Present</span></header>
-      <p class="where">Studio for websites, dashboards, Telegram Mini Apps and bots · <a class="mono" href="https://nimbyte.ir">nimbyte.ir</a></p>
+      <p class="where">Studio for websites, dashboards, Telegram Mini Apps and bots · nimbyte.ir</p>
       <ul>
-        <li>Built nimbyte.ir with Next.js, Tailwind CSS and Prisma on PostgreSQL: a bento-grid site with a price calculator that orders through Telegram, a shop with online payment, a blog and portfolio written in a rich-text admin panel, and SEO from the first audit on.</li>
-        <li>Design and ship Telegram bots on Telegram Serverless with React Mini Apps, admin panels, widgets, offline tests and deploys on GitHub Actions.</li>
-        <li>Run the brand end to end: its design system, character (Bitty), copy and content.</li>
+        <li>Built nimbyte.ir with Next.js, Tailwind CSS and Prisma/PostgreSQL: price calculator ordering through Telegram, online shop, blog and portfolio from an admin panel, SEO.</li>
+        <li>Ship Telegram bots on Telegram Serverless with React Mini Apps, admin panels, widgets, offline tests and GitHub Actions deploys.</li>
       </ul>
     </article>
     <article class="job">
-      <header><h2>Front-End Developer, Junior</h2><span class="when">Oct 2023 – Sep 2024</span></header>
-      <p class="where">123 Health App · Remote, USA</p>
+      <header><h2>Front-End Developer, Junior · 123 Health App</h2><span class="when">Oct 2023 – Sep 2024</span></header>
+      <p class="where">Remote, USA</p>
       <ul>
-        <li>Built interactive healthcare tools with Next.js, with a smooth user experience and clear data visualization.</li>
-        <li>Implemented responsive UI components with Ant Design for easy navigation.</li>
-        <li>Drew component and sequence diagrams so the whole team understood how the system's parts interact.</li>
-        <li>Implemented a multi-tier architecture separating presentation, business logic and data, for easier maintenance, growth and security.</li>
+        <li>Built interactive healthcare tools with Next.js and Ant Design; drew component and sequence diagrams; implemented a multi-tier architecture (presentation, business logic, data).</li>
       </ul>
+    </article>
+    <article class="job">
+      <header><h2>Front-End Developer, Junior · Melting Bears</h2><span class="when">Freelance</span></header>
+      <ul><li>Gamified Web3 web app with Next.js, TypeScript and Tailwind CSS, with wallet sign-in and a pixel-game feel (<a class="mono" style="color:var(--coral-ink)" href="https://melting-bear.netlify.app/">demo ↗</a>).</li></ul>
+    </article>
+    <article class="job">
+      <header><h2>WordPress Instructor · Babol University of Medical Sciences</h2><span class="when">Winter 2023</span></header>
+      <ul><li>Taught WordPress and learned to explain technical ideas simply, as I do with clients now.</li></ul>
     </article>
   </div>
-</section>
-
-<section class="page">
-  <div class="tile">
-    <div class="label"><i></i>Experience, continued</div>
-    <article class="job">
-      <header><h2>Front-End Developer, Junior</h2><span class="when">Freelance</span></header>
-      <p class="where">Melting Bears · Tehran, Iran</p>
-      <ul>
-        <li>Built an interactive, gamified web app with Next.js, TypeScript and Tailwind CSS, with Web3 wallet sign-in and a pixel-game feel. <a class="mono" style="color:var(--coral-ink)" href="https://melting-bear.netlify.app/">Demo without whitelist ↗</a></li>
-      </ul>
-    </article>
-    <article class="job">
-      <header><h2>WordPress Instructor</h2><span class="when">Winter 2023</span></header>
-      <p class="where">Babol University of Medical Sciences · Babol, Iran</p>
-      <ul>
-        <li>Learned to explain complex technical ideas simply and clearly, as I do with clients now.</li>
-        <li>Practised presenting and speaking to a group.</li>
-      </ul>
-    </article>
-  </div>
-
   <div class="tile sand">
-    <div class="label"><i></i>Selected work · live bots and apps</div>
-    <div class="proj">
-      <div class="tile"><h2>AdsProvider</h2><p>Telegram bot for ordering Telegram Ads: a toman wallet (card-to-card, TON, USDT), a three-step order, review and publishing through the Telegram Ads API, reports with charts, chat widgets and a React Mini App.</p><a class="mono" href="https://nimbyte.ir/portfolio/adsprovider-bot">nimbyte.ir/portfolio/adsprovider-bot</a></div>
-      <div class="tile"><h2>Soundgir</h2><p>SoundCloud downloader bot: links or song names, Spotify and YouTube links matched on SoundCloud, tags and covers written into the file, a Playlist Mini App with a streaming player and a Telegram widget.</p><a class="mono" href="https://nimbyte.ir/portfolio/soundcloud-downloader-bot">nimbyte.ir/portfolio/soundcloud-downloader-bot</a></div>
-      <div class="tile"><h2>Nakoja</h2><p>Online shop demo, from product page to seller panel: cart, checkout, order tracking and stock management.</p><a class="mono" href="https://nimbyte.ir/portfolio/nakoja-online-shop">nimbyte.ir/portfolio/nakoja-online-shop</a></div>
-      <div class="tile"><h2>LikeTune &amp; Hesabdar</h2><p>LikeTune: likes and stats for music channels. Hesabdar: an inline calculator and currency converter that works in any chat.</p><a class="mono" href="https://nimbyte.ir/portfolio">nimbyte.ir/portfolio</a></div>
+    <div class="label"><i></i>Selected work · nimbyte.ir/portfolio</div>
+    <div class="work">
+      <p><a href="https://t.me/AdsProviderBot"><b>AdsProvider</b> <span class="mono handle">@AdsProviderBot</span></a> · Telegram Ads ordering bot: toman wallet (card, TON, USDT), Telegram Ads API, chart reports, Mini App.</p>
+      <p><a href="https://t.me/SoundCoudMusicBot"><b>Soundgir</b> <span class="mono handle">@SoundCoudMusicBot</span></a> · SoundCloud downloader: Spotify/YouTube matching, tags in the file, Playlist Mini App, widget.</p>
+      <p><a href="https://nakoja.nimbyte.ir"><b>Nakoja</b> <span class="mono handle">nakoja.nimbyte.ir</span></a> · Online shop demo, from product page to seller panel.</p>
+      <p><a href="https://t.me/music_modifier_bot"><b>LikeTune</b> <span class="mono handle">@music_modifier_bot</span></a> · Likes and stats for music channels.</p>
     </div>
   </div>
-
-  <div class="row" style="grid-template-columns: 1fr 1fr">
+  <div class="row" style="grid-template-columns: 1fr 1.9fr">
     <div class="tile blue">
       <div class="label"><i></i>Education</div>
       <h2>B.Sc. Computer Engineering</h2>
-      <p class="where" style="margin:1mm 0 2mm">Babol Noshirvani University of Technology · 2022 – Present</p>
-      <div class="chips"><span class="chip">Teaching Assistant, Web Programming</span></div>
+      <p class="where" style="margin:.5mm 0 1.5mm">Babol Noshirvani Univ. of Technology · 2022 – Present</p>
+      <div class="chips"><span class="chip">TA, Web Programming</span></div>
+      <p class="where" style="margin-top:2mm">Persian (native) · English (professional)</p>
     </div>
-    <div class="tile green">
-      <div class="label"><i></i>Languages</div>
-      <h2>Persian · native</h2>
-      <h2 style="margin-top:1mm">English · professional</h2>
-      <p class="where" style="margin-top:1mm">Remote work with US teams since 2023</p>
-    </div>
-  </div>
-
-  <div class="tile">
-    <div class="label"><i></i>Skills</div>
-    <div class="skills">
-      <div><span>Languages</span><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Java</span></div></div>
-      <div><span>Frameworks</span><div class="chips"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Tailwind CSS</span><span class="chip">Ant Design</span><span class="chip">MUI</span><span class="chip">GSAP</span><span class="chip">D3.js</span><span class="chip">Highcharts</span></div></div>
-      <div><span>Data</span><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Prisma</span></div></div>
-      <div><span>Telegram</span><div class="chips"><span class="chip">Bots</span><span class="chip">Mini Apps</span><span class="chip">grammY</span><span class="chip">Pyrogram</span><span class="chip">Telegram Serverless</span><span class="chip">Bot API widgets</span></div></div>
-      <div><span>Tools</span><div class="chips"><span class="chip">Git</span><span class="chip">GitHub Actions</span><span class="chip">Vercel</span><span class="chip">Claude Code</span><span class="chip">Figma</span></div></div>
+    <div class="tile">
+      <div class="label"><i></i>Skills</div>
+      <div class="skills">
+        <div><span>Languages</span><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Java</span></div></div>
+        <div><span>Frameworks</span><div class="chips"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Tailwind CSS</span><span class="chip">Ant Design</span><span class="chip">MUI</span><span class="chip">GSAP</span><span class="chip">D3.js</span><span class="chip">Highcharts</span></div></div>
+        <div><span>Data</span><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Prisma</span></div></div>
+        <div><span>Telegram</span><div class="chips"><span class="chip">Bots</span><span class="chip">Mini Apps</span><span class="chip">grammY</span><span class="chip">Pyrogram</span><span class="chip">Serverless</span></div></div>
+        <div><span>Tools</span><div class="chips"><span class="chip">Git</span><span class="chip">GitHub Actions</span><span class="chip">Vercel</span><span class="chip">Claude Code</span><span class="chip">Figma</span></div></div>
+      </div>
     </div>
   </div>
 </section>
-
 </body>
 </html>

@@ -1,8 +1,12 @@
-# UPDATED AT (6 FEBRUARY 2025) 📅
+# Amirmohammad Lotfipour · Résumé
 
-[Google Docs Link](https://docs.google.com/document/d/1VGxOV56NQgipnkujLDbmglC0gkumYxDxbm7WuR42yOE/edit?usp=sharing)
+**Updated November 2026.** Front-End Developer (Next.js, React, TypeScript) and founder of [nimbyte](https://nimbyte.ir).
+
+- [`resume.pdf`](./resume.pdf): the current résumé, two A4 pages.
+- [`index.html`](./index.html): the same résumé as a web page; the PDF is printed from it (Chrome → Print → Save as PDF, A4, margins none, background graphics on).
 
 | Year                                       |
 | :----------------------------------------- |
 | [`2024`](./Deprecated/AmirMmdCV-D2024.pdf) |
-| [`2025-current`](./resume.pdf)             |
+| [`2025`](./Deprecated/AmirMmdCV-D2025.pdf) |
+| [`2026-current`](./resume.pdf)             |
